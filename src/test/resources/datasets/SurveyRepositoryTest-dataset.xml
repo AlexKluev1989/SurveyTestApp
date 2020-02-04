@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <survey id="10" name="test survey #1" start_date="2019-01-30" is_active="true"/>
+    <question id="11" survey_id="10" question_text="First question of the first survey" question_order="0"/>
+    <question id="12" survey_id="10" question_text="Second question of the first survey" question_order="1"/>
+    <question id="13" survey_id="10" question_text="Third question of the first survey" question_order="2"/>
+
+    <survey id="20" name="test survey #2" start_date="2020-01-30" is_active="false"/>
+    <question id="21" survey_id="20" question_text="First question of the second survey" question_order="0"/>
+
+    <survey id="30" name="test survey #3" start_date="2010-01-30" is_active="false"/>
+    <question id="31" survey_id="30" question_text="First question of the third survey" question_order="0"/>
+</dataset>
